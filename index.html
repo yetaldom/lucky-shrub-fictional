@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<!-- index.html and styles.css NEED TO BE IN THE SAME FOLDER! -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Lucky Shrub</title>
+</head>
+
+<body>
+    <header id="header" class="container">
+        <img src="Logos/Asset 1@3x.png" alt="logo left" width="50px" height="80px">
+        <img src="Logos/Asset 2@3x.png" alt="logo 1" width="50px" height="100px">
+        <img src="Logos/Asset 3@3x.png" alt="logo right" width="50px" height="80px">
+
+    </header>
+
+    <nav id="navbar" class="container">
+        <ul id="navlist" class="nav">
+            <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Info</a></li>
+        </ul>
+        <!-- <div id="change-light-theme" class="">
+            <button id="light-mode" >DarkMode Off</button>
+        </div> -->
+    </nav>
+
+    <main id="content" class="container">
+
+        <section id="promotion" class="container">
+            <div id="promotion-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#promotion-carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#promotion-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+
+                </div>
+
+                <div class="carousel-inner">
+                    <div id="slide" class="carousel-item active">
+                        <img src="img/promo_1.jpeg" class="d-block w-100" alt="Slide 1">
+                        <div id="promotion-caption">
+                            <h5><strong>Design Promotion</strong></h5>
+                            <p><strong>Get 25% off in any Garden design!</strong></p>
+                        </div>
+
+                    </div>
+
+                    <div id="slide" class="carousel-item">
+                        <img src="img/promo_2.jpg" class="d-block w-100" alt="Slide 4">
+                        <div id="promotion-caption">
+                            <h5>Care Promotion</h5>
+                            <p><strong>Get 15% off in firts set of plants care!</strong></p>
+                            <p>limited to 5 plants per set</p>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#promotion-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#promotion-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="services" class="container">
+            <div class="grid-item-services">
+                <img src="img/service_1.png" alt="Service 1">
+                <div class="grid-text-services">
+                    <h2>Garden Design</h2>
+                    <p>We got the best garden design in town.<br>
+                        We have a collection of multiple different layouts that you can choose, or simply, make one with
+                        our custom client support</p>
+                </div>
+            </div>
+            <div class="grid-item-services">
+
+                <img src="img/service_2.jpg" alt="Service 2">
+                <div class="grid-text-services">
+                    <h2>Garden Care</h2>
+                    <p>We make your garden look always nice. Direct service to any customer!<br>
+                        Book any time!</p>
+                </div>
+
+            </div>
+            <div class="grid-item-services breakable-grid-item-services">
+
+                <img src="img/service_3.jpg" alt="Service 3">
+                <div class="grid-text-services">
+                    <h2>Plant Care</h2>
+                    <p>Having trouble with your plants? we got you!<br>
+                        Bring your plants to our clinic or if they hard to transport we can take a sample and inform you
+                        after our clinics results!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2>About Us</h2>
+            <div class="about-text">
+                <img id="about-img" src="Logos/Asset 3@3x.png" alt="about logo" width="50px" height="100px">
+                <p>Based in Tuscon, Arizona, Lucky Shrub is a medium-sized garden
+                    design firm that specializes in garden design and creation,
+                    maintenance and landscaping.<br>
+                    The company also runs a small plant nursery that sells indoor
+                    and outdoor plants, making them a one-stop shop for clients to
+                    "transform any space into an oasis you can be proud of".</p>
+                <p>Lucky Shrub was started by a husband and wife team, Jason and Maria,
+                    who share a long-time love for plants.<br> Jason is the garden architect.
+                    He creates and oversees all designs while managing his team of landscapers.<br>
+                    Maria manages all the marketing for the company and oversees the nursery.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="container">
+        <div id="footer-logo-repeat" class="contaniner footer-logo">
+            <img src="Logos/Asset 3@3x.png" alt="footer logo" width="50px" height="95px">
+            <img src="Logos/Asset 2@3x.png" alt="footer logo" width="50px" height="75px" class="removable-logo">
+        </div>
+        <div id="contact" class="container">
+            <h3>Contact</h3>
+            <p><strong>Tel</strong> +61 77 3145 97478</p>
+            <p><strong>Mail</strong> theLuckyShrub@shrubing.net</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
